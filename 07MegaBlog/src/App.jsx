@@ -26,11 +26,11 @@ function App() {
 
   return !loading ? (
     <div className='min-h-screen flex flex-wrap 
-    content-between bg-gray-400'>
+    content-between bg-gray-400 w-full'>
       <div className='w-full block'>
         <Header />
         <main>
-          TODO: <Outlet />
+          <Outlet />
         </main>
         <Footer />
       </div>
